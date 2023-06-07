@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Libre Baskerville', serif;
+}
+
+/* GENERAL */
+h1{
+    font-family: 'Playfair Display', serif;
+    color: #EDC5C5;
+    font-size: 30px;
+    padding: 20px 0px 0px 40px;
+}
+
+h2{
+    font-family: 'Playfair Display', serif;
+    color: #EDC5C5;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    padding: 20px 20px;
+}
+/* NAV */
+.navbar-collapse{
+    display: flex;
+    justify-content: end;
+}
+.nav-item{
+    padding-right: 20px;
+}
+.nav-item a{
+    padding-top: 13px;
+    color: black;
+}
+.nav-item a:hover{
+    color: #EDC5C5;
+}
+.navbar-nav .nav-link.active{
+    color: #EDC5C5;
+}
+
+/* MAIN */
+/* HOME */
+.hero{
+    background-image: url('../images/hero.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 828px;
+}
+.hero h3{
+    font-family: 'Playfair Display';
+    font-size: 110px;
+    justify-content: start;
+    padding-left: 100px;
+    padding-top: 200px;
+    align-items: center;
+}
+.hero p{
+    font-family: 'Playfair Display';
+    font-size: 40px;
+    padding-left: 100px;
+}
+
+/* SOBRE MI */
+#sobreMi img{
+    border-radius: 50%;
+    width: 500px;
+}
+#sobreMi .row{
+    align-items: center;
+}
+#sobreMi p{
+    font-size: 20px;
+}
+.seccion-olas{
+    background-color: #EDC5C5;
+}
+.seccion-olas p{
+    font-size: 20px;
+}
+.seccion-olas ul li{
+    padding: 15px;
+    list-style-type: none;
+    text-align: start;
+}
+.seccion-olas li:hover{
+    box-shadow: 0 2px 4px rgba(255, 102, 196, 0.5); 
+    transition: box-shadow 0.3s ease;
+    border-radius: 10px;
+}
+.seccion-olas li:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+  }
+  
+.fa-regular{
+    padding-right: 5px;
+    color: #FF66C4;
+    font-size: 20px;
+}
+
+
+  
+
+
+#proyectos h3{
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    padding: 15px;
+}
+
+.cada-proyecto{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.cada-proyecto h4{
+    padding: 20px 0px 20px 40px;
+    font-family: 'Playfair Display';
+    font-size: 26px;
+}
+.cada-proyecto h5{
+    padding: 20px 40px 20px 0px;
+    font-family: 'Playfair Display';
+    font-size: 26px;
+}
+.cada-proyecto a{
+    text-decoration: none;
+    color: black;
+}
+.contenedor-cuadrado{
+    position: relative;
+    padding-bottom: 100%;
+    overflow: hidden;
+}
+.imagen-cuadrada{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.imagen-cuadrada img{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+
+/* FOOTER */
+footer{
+    background-color: #EDC5C5;
+}
+footer h4, p{
+    padding-left: 30px;
+    font-family: 'Playfair Display';
+}
+footer h4{
+    padding-top: 20px;
+    font-size: 20px;
+}
+footer i{
+    padding-left: 30px;
+}
+.redes-sociales a{
+    text-decoration: none;
+    color: black;
+}
