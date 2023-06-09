@@ -215,6 +215,7 @@ h3{
     object-fit: cover;
     width: 200px;
 }
+ 
 
 /* CONTACTO */
 .contenedor-iconos{
@@ -235,7 +236,7 @@ h3{
 .circulo-icono:hover{
     background-color: black;
 }
-.fa-brands, .fa-regular{
+.iconos-contacto{
     font-size: 50px;
     color: #EDC5C5;
 }
@@ -252,6 +253,9 @@ footer h4{
     color: black;
     padding-top: 20px;
     font-size: 20px;
+}
+footer p{
+    margin: 0;
 }
 .copyright{
     display: inline-flex;
@@ -270,19 +274,17 @@ footer h4{
     border-radius: 50%;
     background-color: #FF66C4;
     display: flex;
-    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    padding: 6px;
 }
 .circulo-icono-mini p{
-    justify-content: center;
-    padding: 4px 0px 0px 10px;
+    margin-left: 10px;
+    color: black;
+    /* padding: 4px 0px 0px 10px; */
 }
 .circulo-icono-mini i{
     font-size: 20px;
-    padding: 3px 0px 0px 5px;
+    /* padding: 3px 0px 0px 5px; */
     color: white;
-}
-.contenedor-iconos-footer{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
 }
