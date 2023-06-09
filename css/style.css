@@ -158,11 +158,6 @@ h3{
 }
 
 /* HERRAMIENTAS */
-#hyh p{
-    display: flex;
-    justify-content: center;
-    font-size: 17px;
-}
 .tecnologias{
     padding: 30px 30px;
 }
@@ -177,7 +172,6 @@ h3{
 .tecnologias p{
     color: white;
     text-align: center;
-    padding-right: 30px;
 }
 .tecnologias img{
     width: 70px;
@@ -281,10 +275,72 @@ footer p{
 .circulo-icono-mini p{
     margin-left: 10px;
     color: black;
-    /* padding: 4px 0px 0px 10px; */
 }
 .circulo-icono-mini i{
     font-size: 20px;
-    /* padding: 3px 0px 0px 5px; */
     color: white;
+}
+
+/* MEDIAQUERY MOBILE */
+@media (max-width: 576px){
+    h2{
+        font-size: 40px;
+        display: flex;
+        justify-content: center;
+    }
+    h3{
+        font-size: 30px;
+        padding: 20px;
+    }
+    #sobreMi img{
+        width: 300px;
+    }
+    #sobreMi p{
+        padding-top: 20px;
+        font-size: 15px;
+    }
+    h4{
+        text-align: center;
+    }
+    h5{
+        font-size: 18px;
+        text-align: center;
+    }
+    .tecnologias .col-md-3{
+        padding-bottom: 15px;
+    }
+    .contenedor-iconos{
+        padding: 50px 20px 50px 20px;
+    }
+    .circulo-icono{
+        width: 40px;
+        height: 40px;
+    }
+    .iconos-contacto{
+        font-size: 25px;
+    }
+    footer h4{
+        padding: 0px 0px 20px 0px;
+    }
+    .copyright{
+        padding-bottom: 28px;
+    }
+    .copyright p{
+        font-size: 10px;
+        color: black;
+    }
+    .fa-copyright{
+        font-size: 20px;
+    }
+    .circulo-icono-mini{
+        width: 20px;
+        height: 20px;
+        padding: 4px;
+    }
+    .circulo-icono-mini i{
+        font-size: 12px;
+    }
+    .circulo-icono-mini p{
+        font-size: 12px;
+    }
 }
