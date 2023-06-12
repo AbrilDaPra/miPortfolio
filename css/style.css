@@ -135,33 +135,33 @@ h3{
 }
 
 /* SOBRE MI */
-#sobreMi img{
+#aboutMe img{
     border-radius: 50%;
     width: 500px;
 }
-#sobreMi .row{
+#aboutMe .row{
     align-items: center;
 }
-#sobreMi p{
+#aboutMe p{
     font-size: 20px;
 }
-.seccion-olas{
+.waves-section{
     background-color: #EDC5C5;
 }
-.seccion-olas p{
+.waves-section p{
     font-size: 20px;
 }
-.seccion-olas ul li{
+.waves-section ul li{
     padding: 15px;
     list-style-type: none;
     text-align: start;
 }
-.seccion-olas li:hover{
+.waves-section li:hover{
     box-shadow: 0 2px 4px rgba(255, 102, 196, 0.5); 
     transition: box-shadow 0.3s ease;
     border-radius: 10px;
 }
-.seccion-olas li:hover {
+.waves-section li:hover {
     transform: scale(1.05);
     transition: transform 0.3s ease;
   }
@@ -215,32 +215,32 @@ h3{
     padding: 10px;
 }
 
-.iconos{
+.icons{
     color: white;
     font-size: 30px;
 }
 
 /* HERRAMIENTAS */
-.tecnologias{
+.technologies{
     padding: 30px 30px;
 }
-.tecnologias i{
+.technologies i{
     font-size: 70px;
     color: white;
     transition: transform 0.3s ease;
 }
-.tecnologias i:hover{
+.technologies i:hover{
     transform: scale(1.3);
 }
-.tecnologias p{
+.technologies p{
     color: white;
     text-align: center;
 }
-.tecnologias img{
+.technologies img{
     width: 70px;
     transition: transform 0.3s ease;
 }
-.tecnologias img:hover{
+.technologies img:hover{
     transform: scale(1.3);
 }
 
@@ -287,13 +287,13 @@ h3{
  
 
 /* CONTACTO */
-.contenedor-iconos{
+.icon-container{
     display: flex;
     justify-content: center;
     gap: 15px;
     background-color: #EDC5C5;
 }
-.circulo-icono{
+.icon-circle{
     width: 100px;
     height: 100px;
     border-radius: 50%;
@@ -302,10 +302,10 @@ h3{
     align-items: center;
     justify-content: center;
 }
-.circulo-icono:hover{
+.icon-circle:hover{
     background-color: black;
 }
-.iconos-contacto{
+.contact-icon{
     font-size: 50px;
     color: #EDC5C5;
 }
@@ -337,7 +337,7 @@ footer p{
     font-size: 30px;
     color: #FF66C4;
 }
-.circulo-icono-mini{
+.icon-circle-mini{
     width: 30px;
     height: 30px;
     border-radius: 50%;
@@ -347,11 +347,11 @@ footer p{
     margin: 10px;
     padding: 6px;
 }
-.circulo-icono-mini p{
+.icon-circle-mini p{
     margin-left: 10px;
     color: black;
 }
-.circulo-icono-mini i{
+.icon-circle-mini i{
     font-size: 20px;
     color: white;
 }
@@ -368,10 +368,10 @@ footer p{
         font-size: 30px;
         text-align: center;
     }
-    #sobreMi img{
+    #aboutMe img{
         width: 300px;
     }
-    #sobreMi p{
+    #aboutMe p{
         padding-top: 20px;
         font-size: 15px;
     }
@@ -382,17 +382,17 @@ footer p{
         font-size: 18px;
         text-align: center;
     }
-    .tecnologias .col-md-3{
+    .technologies .col-md-3{
         padding-bottom: 15px;
     }
-    .contenedor-iconos{
+    .icon-container{
         padding: 50px 20px 50px 20px;
     }
-    .circulo-icono{
+    .icon-circle{
         width: 40px;
         height: 40px;
     }
-    .iconos-contacto{
+    .contact-icon{
         font-size: 25px;
     }
     footer h4{
@@ -408,15 +408,15 @@ footer p{
     .fa-copyright{
         font-size: 20px;
     }
-    .circulo-icono-mini{
+    .icon-circle-mini{
         width: 20px;
         height: 20px;
         padding: 4px;
     }
-    .circulo-icono-mini i{
+    .icon-circle-mini i{
         font-size: 12px;
     }
-    .circulo-icono-mini p{
+    .icon-circle-mini p{
         font-size: 12px;
     }
 }
