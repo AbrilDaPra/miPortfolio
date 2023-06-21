@@ -187,7 +187,7 @@ h3{
 
 /* MI PORTFOLIO */
 #portfolio img{
-    width: 300px;
+    width: 400px;
     aspect-ratio: 1/1;
     object-fit: cover;
 }
@@ -200,6 +200,7 @@ h3{
     display: block;
     width: 100%;
     height: auto;
+    border-radius: 50%;
 }
   
 .image-container .overlay-portfolio{
@@ -229,6 +230,7 @@ h3{
 }
 
 .icons{
+    padding-top: 15px;
     color: white;
     font-size: 30px;
 }
