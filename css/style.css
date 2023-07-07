@@ -58,6 +58,20 @@ h5{
 .navbar-toggler-icon{
     color: #EDC5C5;
 }
+.navbar button{
+    background-color: #FF66C4;
+    border-color: #FF66C4;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    font-family: 'Playfair Display';
+}
+.navbar button:hover{
+    background-color: #EDC5C5;
+    border-color: #EDC5C5;
+    color: #FF66C4;
+
+}
 
 /* MAIN */
 /* HOME */
