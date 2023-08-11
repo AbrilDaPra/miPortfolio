@@ -205,6 +205,32 @@ h3{
     aspect-ratio: 1/1;
     object-fit: cover;
 }
+
+#projectCounter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+    font-size: 18px;
+}
+#projectCounter i{
+    font-size: 30px;
+    color: #FF66C4;
+}
+#count{
+    color: #FF66C4;
+    font-size: 30px;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    margin: 0 10px;
+}
+.text-counter{
+    margin: 0;
+}
+
 .image-container{
     position: relative;
     display: inline-block;
