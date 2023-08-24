@@ -1,5 +1,5 @@
 let countElement = document.getElementById("count");
-let projectsCompleted = 4;
+let projectsCompleted = 5;
 let isVisible = false;
 let counterStarted = false;
 

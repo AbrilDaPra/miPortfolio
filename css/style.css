@@ -212,6 +212,7 @@ h3{
     align-items: center;
     padding: 60px;
     font-size: 18px;
+    color: white;
 }
 #projectCounter i{
     font-size: 30px;
@@ -273,6 +274,7 @@ h3{
     padding-top: 15px;
     color: white;
     font-size: 30px;
+    margin-bottom: 40px;
 }
 
 /* HERRAMIENTAS */
@@ -482,5 +484,9 @@ footer p{
     }
     .navbar-nav button{
         margin-top: 20px;
+    }
+    #projectCounter{
+        display: block;
+        text-align: center;
     }
 }
