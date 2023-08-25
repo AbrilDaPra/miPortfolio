@@ -1,7 +1,21 @@
+let check = document.querySelector(".check");
+
 let countElement = document.getElementById("count");
 let projectsCompleted = 5;
 let isVisible = false;
 let counterStarted = false;
+
+check.addEventListener('click', language);
+
+function language(){
+    let id = check.checked;
+
+    if(id == true){
+        location.href = "../index-en.html";
+    }else{
+        location.href = "../index.html";
+    }
+}
 
 function updateCounter(count) {
     countElement.textContent = count;
@@ -39,3 +53,4 @@ window.addEventListener("scroll", () => {
 });
 
 checkVisibility();
+

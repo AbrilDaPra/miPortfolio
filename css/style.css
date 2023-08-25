@@ -58,7 +58,7 @@ h5{
 .navbar-toggler-icon{
     color: #EDC5C5;
 }
-.navbar button{
+/* .navbar button{
     background-color: #FF66C4;
     border-color: #FF66C4;
     color: white;
@@ -71,6 +71,42 @@ h5{
     border-color: #EDC5C5;
     color: #FF66C4;
 
+} */
+
+.check{
+    position: relative;
+    width: 50px;
+    height: 25px;
+    background: #EDC5C5;
+    border-radius: 25px;
+    border: 2px solid #FF66C4;
+    cursor: pointer;
+}
+.check:before{
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 25px;
+    background: #FF66C4;
+    border-radius: 25px;
+}
+.check:after{
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background: #EDC5C5;
+    border-radius: 25px;
+    transition: 0.25;
+    border: 2px solid #FF66C4;
+    box-sizing: border-box;
+}
+.check:checked:after{
+    left: 25px;
+    border: 2px solid #FF66C4;
+}
+.check:checked:before{
+    background: #EDC5C5;
 }
 
 /* MAIN */
