@@ -81,6 +81,7 @@ h5{
     border-radius: 25px;
     border: 2px solid #FF66C4;
     cursor: pointer;
+    margin: 11px 10px;
 }
 .check:before{
     content: '';
