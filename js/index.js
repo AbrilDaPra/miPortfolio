@@ -11,9 +11,9 @@ function language(){
     let id = check.checked;
 
     if(id == true){
-        location.href = "../index-en.html";
+        location.href = "/index-en.html";
     }else{
-        location.href = "../index.html";
+        location.href = "/index.html";
     }
 }
 
