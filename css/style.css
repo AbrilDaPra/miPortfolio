@@ -549,7 +549,7 @@ border-color: rgba(255, 126, 203, 1);
     font-size: 30px;
 } */
 /* MEDIAQUERY MOBILE */
-@media (max-width: 576px){
+@media (max-width: 700px){
     h1{
         padding: 5px;
     }
@@ -557,9 +557,9 @@ border-color: rgba(255, 126, 203, 1);
         justify-content: center;
     }
     h2{
-        font-size: 40px;
+        font-size: 90px;
     }
-    h3{
+    .subtitle{
         font-size: 30px;
         text-align: center;
     }
@@ -579,6 +579,7 @@ border-color: rgba(255, 126, 203, 1);
     }
     #portfolio img{
         width: 300px;
+        height: 300px;
     }
     .technologies .col-md-3{
         padding-bottom: 15px;
