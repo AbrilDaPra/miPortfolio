@@ -1,7 +1,7 @@
 let check = document.querySelector(".check");
 
 let countElement = document.getElementById("count");
-let projectsCompleted = 9;
+let projectsCompleted = 10;
 let isVisible = false;
 let counterStarted = false;
 

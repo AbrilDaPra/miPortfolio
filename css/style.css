@@ -399,7 +399,27 @@ h3{
     font-size: 17px;
     color: #EB4B98;
 }
- 
+
+/* FORM SECTION */
+.form-section{
+}
+
+.form-title{
+    text-align: center;
+}
+
+.form-btn{
+    border-radius: 30px;
+    border: none;
+    padding: 10px;
+    background-color: #5158BB;
+    color: white;
+    margin-top: 10px;
+}
+.form-btn:hover{
+    background-color: #F26DF9;
+    color: #043565;
+}
 
 /* CONTACTO */
 .icon-container{
@@ -606,7 +626,7 @@ border-color: rgba(255, 126, 203, 1);
     }
     .copyright p{
         font-size: 10px;
-        color: black;
+        color: white;
     }
     .fa-copyright{
         font-size: 20px;
